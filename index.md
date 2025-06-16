@@ -24,4 +24,4 @@ Learn more about our products and how Galoy can help your community embrace Bitc
 
 [Explore Products](/products.md){: .btn .btn-primary}
 [About Us](/about){: .btn .btn-secondary}
-[FAQ](/faq.md)
+[FAQ](/faq.md){: .btn .btn-secondary}
