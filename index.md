@@ -1,17 +1,26 @@
-# Welcome to My Website
-
-Hello! Welcome to my website. This is a simple markdown site where I'll be sharing content.
-
-## About This Site
-
-This site is built using markdown files and is hosted on GitHub.
-
-Feel free to explore the various pages and content available.
-
-### Contact
-
-You can reach me via GitHub [@dylanwilson21](https://github.com/dylanwilson21).
-
+---
+layout: default
+title: Home
 ---
 
-*Thank you for visiting!*
+# Bitcoin Banking Infrastructure Made Simple
+
+Galoy provides banking software solutions designed to empower innovative organizations in leveraging the full potential of Bitcoin and other digital assets. Our modular product suite allows enterprises to build scalable and secure applications for the evolving financial landscape.
+
+## Why Choose Galoy?
+
+### Modular Architecture
+Build exactly what you need with our flexible, enterprise-ready components.
+
+### Bitcoin-Native Solutions
+Purpose-built for Bitcoin with Lightning Network, lending, and stability features.
+
+### Enterprise Ready
+Scalable solutions for banks, financial institutions, and innovative organizations.
+
+## Ready to Get Started?
+
+Learn more about our products and how Galoy can help your community embrace Bitcoin.
+
+[Explore Products](/products){: .btn .btn-primary}
+[About Us](/about){: .btn .btn-secondary}
