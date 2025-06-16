@@ -21,7 +21,3 @@ Scalable solutions for banks, financial institutions, and innovative organizatio
 ## Ready to Get Started?
 
 Learn more about our products and how Galoy can help your community embrace Bitcoin.
-
-[Explore Products](/products.md){: .btn .btn-primary}
-[About Us](/about){: .btn .btn-secondary}
-[FAQ](/faq.md){: .btn .btn-secondary}
