@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - Galoy</title>
+    <title>{% if page.title %}{{ page.title }} | Galoy{% else %}Galoy | Simple, Fast, and Secure Banking Software{% endif %}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -229,10 +231,11 @@
             </a>
             <nav class="nav">
                 <a href="https://dylanwilson21.github.io/markdownsite/">Home</a>
-                <a href="https://dylanwilson21.github.io/markdownsite/products.html">Products</a>
+                <a href="https://dylanwilson21.github.io/markdownsite/core-banking.html">Core Banking</a>
+                <a href="https://dylanwilson21.github.io/markdownsite/lana.html">Lana</a>
+                <a href="https://dylanwilson21.github.io/markdownsite/about-us.html">About</a>
+                <a href="https://dylanwilson21.github.io/markdownsite/security.html">Security</a>
                 <a href="https://dylanwilson21.github.io/markdownsite/faq.html">FAQ</a>
-                <a href="https://docs.galoy.io" target="_blank">Documentation</a>
-                <a href="https://github.com/GaloyMoney" target="_blank">GitHub</a>
                 <a href="mailto:biz@galoy.io" class="btn">Contact</a>
             </nav>
         </div>
