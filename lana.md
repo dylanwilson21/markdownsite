@@ -2,8 +2,6 @@
 ---
 layout: default
 title: Lana - Bitcoin-Backed Lending
-description: Offer secure and compliant Bitcoin-backed loans with Lana, the innovative lending platform from Galoy.
-keywords: bitcoin-backed lending, digital asset lending, fintech lending platform, crypto-backed loans
 ---
 
 # Launch Innovative Lending Products with Lana

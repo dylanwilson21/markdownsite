@@ -1,9 +1,7 @@
 
 ---
 layout: default
-title: Core Banking Suite
-description: A complete, integrated core banking solution for fintechs and banks, featuring payments, a robust ledger, and value stabilization.
-keywords: core banking software, fintech core system, payment hub, double-entry ledger, stablecoin solutions
+title: Core Banking
 ---
 
 # Your All-in-One Core Banking Solution

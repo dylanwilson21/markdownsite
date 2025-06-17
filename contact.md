@@ -2,7 +2,6 @@
 ---
 layout: default
 title: Contact
-description: Get in touch with Galoy to learn more about our banking software solutions, request a demo, or schedule a consultation.
 ---
 
 # Get in Touch

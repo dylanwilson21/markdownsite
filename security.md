@@ -2,7 +2,6 @@
 ---
 layout: default
 title: Security & Compliance
-description: Galoy maintains the highest security standards with ISO 27001 certification, open-source transparency, and modern development practices.
 ---
 
 # Security and Compliance You Can Trust

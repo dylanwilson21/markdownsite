@@ -2,7 +2,6 @@
 ---
 layout: default
 title: About Us
-description: Learn about Galoy's mission to bring banking into the Bitcoin Age with simple, secure, and scalable solutions.
 ---
 
 # The Team Building the Future of Banking

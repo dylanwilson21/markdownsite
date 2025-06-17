@@ -2,8 +2,6 @@
 ---
 layout: default
 title: Home
-description: Galoy provides a simple and powerful core banking system for fintechs and banks to launch and scale quickly. Get to market in weeks.
-keywords: fintech solutions, core banking system, open source banking, ISO27001 certified banking, banking software
 ---
 
 # The Future of Banking is Simple
