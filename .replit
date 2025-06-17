@@ -6,12 +6,29 @@ channel = "stable-24_05"
 run = ["sh", "-c", "run"]
 
 [workflows]
-runButton = "Run Jekyll"
+runButton = "Install and Run Jekyll"
 
 [[workflows.workflow]]
 name = "Run Jekyll"
 author = 41672583
 mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bundle install"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bundle exec jekyll serve --host 0.0.0.0 --port 5000"
+
+[[workflows.workflow]]
+name = "Install and Run Jekyll"
+author = 41672583
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gem install bundler jekyll"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
