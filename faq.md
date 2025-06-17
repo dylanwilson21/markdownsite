@@ -19,9 +19,6 @@ Galoy is designed for:
 - Developers creating Bitcoin-native financial applications
 - Institutions requiring enterprise-grade Bitcoin solutions
 
-### Is Galoy really open source?
-Yes, absolutely. All of our core code is available on GitHub under open-source licenses. You can inspect, modify, and contribute to the codebase. We believe transparency is essential for financial infrastructure.
-
 ## Technical Questions
 
 ### What products does Galoy offer?
