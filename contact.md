@@ -37,7 +37,7 @@ For technical support and development questions, please visit our GitHub reposit
 ### Documentation
 Comprehensive technical documentation, deployment guides, and API references.
 
-[View Documentation](https://docs.galoy.io){: .btn .btn-secondary}
+[View Documentation](https://dev.galoy.io/){: .btn .btn-secondary}
 
 ### GitHub
 Explore our open-source codebase, contribute to development, or report issues.
@@ -65,7 +65,7 @@ When you contact us, here's what happens next:
 
 Before reaching out, you might find answers in our comprehensive FAQ section.
 
-[View FAQ](/faq.html){: .btn .btn-secondary}
+[View FAQ](https://dylanwilson21.github.io/markdownsite/faq.html){: .btn .btn-secondary}
 
 ---
 

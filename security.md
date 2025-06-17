@@ -94,4 +94,4 @@ Appropriate insurance coverage protects both Galoy and our customers against pot
 Questions about our security practices or compliance capabilities?
 
 [Contact Security Team](mailto:biz@galoy.io?subject=Security%20Inquiry){: .btn}
-[View Security Documentation](https://docs.galoy.io/security){: .btn .btn-secondary}
+[View Security Documentation](https://dev.galoy.io/security){: .btn .btn-secondary}

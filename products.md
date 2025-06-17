@@ -93,4 +93,4 @@ Ready to explore how Galoy can help your organization embrace Bitcoin?
 3. **Customize** - Adapt the platform to your specific needs
 4. **Launch** - Go live with your Bitcoin banking infrastructure
 
-[View Documentation](https://docs.galoy.io) | [GitHub Repository](https://github.com/GaloyMoney) | [Contact Us](mailto:hello@galoy.io)
+[View Documentation](https://dev.galoy.io/) | [GitHub Repository](https://github.com/GaloyMoney) | [Contact Us](mailto:hello@galoy.io)aloy.io)

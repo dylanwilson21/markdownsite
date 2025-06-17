@@ -78,4 +78,4 @@ Modern, event-driven design that adapts to changing requirements and scales with
 Ready to modernize your banking infrastructure?
 
 [Schedule a Consultation](mailto:biz@galoy.io?subject=Core%20Banking%20Consultation){: .btn}
-[View Technical Documentation](https://docs.galoy.io){: .btn .btn-secondary}
+[View Technical Documentation](https://dev.galoy.io/){: .btn .btn-secondary}

@@ -23,7 +23,7 @@ Everything you need to launch and manage a modern financial institution, without
 - Barebones simplicity without sacrificing functionality
 - Future-proof architecture built for scale
 
-[Learn More About Core Banking](/core-banking.html)
+[Learn More About Core Banking](https://dylanwilson21.github.io/markdownsite/core-banking.html)
 
 ### Lana - Bitcoin-Backed Lending
 Tap into the growing demand for digital asset-backed lending with our secure and easy-to-integrate platform designed specifically for banks and financial institutions.
@@ -33,7 +33,7 @@ Tap into the growing demand for digital asset-backed lending with our secure and
 - Financial institutions entering digital asset markets
 - Organizations seeking low-risk, high-return lending opportunities
 
-[Explore Lana](/lana.html)
+[Explore Lana](https://dylanwilson21.github.io/markdownsite/lana.html)
 
 ## Why Choose Galoy?
 
@@ -54,4 +54,4 @@ Transparent, auditable code with the flexibility to customize and extend as need
 Ready to transform your banking infrastructure?
 
 [Request a Demo](mailto:biz@galoy.io?subject=Demo%20Request){: .btn}
-[View Documentation](https://docs.galoy.io){: .btn .btn-secondary}
+[View Documentation](https://dev.galoy.io/){: .btn .btn-secondary}

@@ -123,7 +123,7 @@ We have a responsible disclosure process for security issues. Critical security 
 ## Getting Help
 
 ### Where can I get more information?
-- **Documentation**: [docs.galoy.io](https://docs.galoy.io)
+- **Documentation**: [dev.galoy.io](https://dev.galoy.io/)
 - **GitHub**: [github.com/GaloyMoney](https://github.com/GaloyMoney)
 - **Community**: Join our developer discussions
 - **Contact**: [biz@galoy.io](mailto:biz@galoy.io)
