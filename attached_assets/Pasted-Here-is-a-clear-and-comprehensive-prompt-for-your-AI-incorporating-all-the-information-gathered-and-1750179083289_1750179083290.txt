@@ -1,0 +1,163 @@
+Here is a clear and comprehensive prompt for your AI, incorporating all the information gathered and your specific requests. This prompt is designed to generate the markdown files for your website, optimized for SEO and user experience.
+
+AI Prompt:
+
+Objective: Generate markdown files for the new Galoy website copy.
+
+Target Audience:
+
+Fintech startups and companies, especially those who have recently acquired or are in the process of acquiring a banking charter.
+
+Existing banks looking to modernize their infrastructure and offer new, innovative financial products.
+
+Key Differentiator & Core Message: Galoy provides a barebones, simple, and easy-to-use banking software solution that allows new fintechs and banks to get up and running quickly. The software is future-proofed and built on a modern, secure, and scalable architecture. While built on Bitcoin, the core banking suite can operate entirely in fiat, so the copy for the core suite should not focus heavily on "Bitcoin" or "crypto/DeFi," but rather on the underlying benefits of the technology (security, speed, low cost).
+
+Products:
+
+Lana (Standalone Product): A Bitcoin-backed lending platform.
+
+Core Banking Suite (White-glove, all-in-one product):
+
+Bria: Bitcoin Payments Hub
+
+Cala: Core Accounting Ledger
+
+Stablesats: Synthetic USD Hedging Engine
+
+Website Structure & Content (Generate separate markdown files for each):
+
+1. Home Page (/index.md)
+
+Headline: The Future of Banking is Simple.
+
+Sub-headline: Launch your fintech or modernize your bank in weeks, not years, with our barebones and future-proof core banking software.
+
+Body:
+
+Introduce Galoy as the solution for financial institutions that need to move fast and build on a solid, secure foundation.
+
+Briefly introduce the two main offerings: the "Core Banking Suite" for comprehensive banking solutions and "Lana" for innovative lending products.
+
+Highlight key benefits: speed to market, simplicity, security (ISO27001 certified), and scalability.
+
+Include a call-to-action button: "Request a Demo" (redirects to /contact)
+
+SEO Keywords: "fintech solutions," "core banking system," "open source banking," "ISO27001 certified banking," "banking software"
+
+Meta Title: Galoy | Simple, Fast, and Secure Banking Software
+
+Meta Description: Galoy provides a simple and powerful core banking system for fintechs and banks to launch and scale quickly. Get to market in weeks.
+
+2. Core Banking Suite Page (/core-banking.md)
+
+Headline: Your All-in-One Core Banking Solution.
+
+Sub-headline: Everything you need to launch and manage a modern financial institution, without the complexity.
+
+Body:
+
+Present Bria, Cala, and Stablesats as a single, integrated "white-glove" product.
+
+Explain the benefits of the integrated solution: seamless operations, robust accounting, and stable value management.
+
+Bria (Payments): Describe as a powerful payments hub for secure and scalable transactions, enabling both traditional and modern payment rails. Emphasize its reliability and enterprise-grade uptime.
+
+Cala (Ledger): Describe as the heart of the system – a robust, real-time, double-entry accounting ledger. Mention its SQL compatibility for easy integration and querying, and its ability to handle multiple currencies.
+
+Stablesats (Stability): Explain as a synthetic USD hedging engine that provides a stable store of value and unit of account, crucial for managing finances without exposure to volatility. Frame it as a modern solution for stability.
+
+Include a call-to-action button: "Schedule a Consultation" (redirects to /contact)
+
+SEO Keywords: "core banking software," "fintech core system," "payment hub," "double-entry ledger," "stablecoin solutions"
+
+Meta Title: Core Banking Suite | Galoy
+
+Meta Description: A complete, integrated core banking solution for fintechs and banks, featuring payments, a robust ledger, and value stabilization.
+
+3. Lana Page (/lana.md)
+
+Headline: Launch Innovative Lending Products with Lana.
+
+Sub-headline: Tap into the growing demand for Bitcoin-backed lending with our secure and easy-to-integrate platform.
+
+Body:
+
+Position Lana as a standalone product for banks and financial institutions.
+
+Highlight the key benefits:
+
+Rapid Deployment: Go from concept to market in weeks.
+
+Automated Management: Streamline loan origination, fee collection, and margin calls.
+
+Seamless Integration: Works with your existing core banking systems and custodians.
+
+Security-First Design: Built on Galoy's industry-leading security standards.
+
+Explain the value proposition for both the bank (low-risk, high-return potential) and the end customer (access liquidity without selling assets).
+
+Include a call-to-action button: "Learn More About Lana" (redirects to /contact)
+
+SEO Keywords: "bitcoin-backed lending," "digital asset lending," "fintech lending platform," "crypto-backed loans"
+
+Meta Title: Lana | Bitcoin-Backed Lending Platform by Galoy
+
+Meta Description: Offer secure and compliant Bitcoin-backed loans with Lana, the innovative lending platform from Galoy.
+
+4. About Us Page (/about-us.md)
+
+Headline: The Team Building the Future of Banking.
+
+Body:
+
+Introduce Galoy's mission: to bring banking into the Bitcoin Age with simple, secure, and scalable solutions.
+
+Mention the team's expertise in engineering, data science, and business, with a focus on enterprise-scale deployments.
+
+Briefly mention the leadership: Nicolas Burtey (Founder & CEO), Kartik (Engineering), and Justin (CTO), and their relevant experience.
+
+Highlight the company's open-source ethos and commitment to transparency.
+
+5. Security Page (/security.md)
+
+Headline: Security and Compliance You Can Trust.
+
+Body:
+
+Emphasize Galoy's commitment to the highest security standards.
+
+Prominently feature the ISO 27001 certification.
+
+Explain the benefits of the open-source and Fair Source licensing model: auditability and transparency.
+
+Mention modern development practices like cloud-native, event-driven architecture, and extensive automated testing.
+
+6. Contact Page (/contact.md)
+
+Headline: Get in Touch.
+
+Body:
+
+Include a simple contact form for general inquiries, demo requests, and consultation scheduling.
+
+Provide the email address: biz@galoy.io.
+
+Include links to the Galoy GitHub profile.
+
+Final Instructions for the AI:
+
+Generate each page as a separate markdown file with the specified file names.
+
+The tone of the copy should be professional, confident, and clear, avoiding overly technical jargon where possible.
+
+Focus on the benefits for the target audience (speed, simplicity, security, future-proofing).
+
+Incorporate the suggested SEO keywords naturally into the copy.
+
+Adhere to the requested structure and formatting for each page.
+
+Do not use any of the information from the browsed search results in the final output. The purpose of the search was to inform the creation of this prompt, not to be a source for the final copy. All necessary information is included in this prompt.
+
+Google Search Suggestions
+Display of Search Suggestions is required when using Grounding with Google Search. Learn more
+Galoy Stablesats
