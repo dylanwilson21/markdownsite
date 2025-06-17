@@ -1,0 +1,28 @@
+
+title: Galoy
+description: Simple and powerful core banking system for fintechs and banks
+baseurl: "/markdownsite"
+url: "https://dylanwilson21.github.io"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
