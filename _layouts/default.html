@@ -51,6 +51,9 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | Galoy{% else %}Galoy | Bitcoin Banking Software{% endif %}">
     <meta name="twitter:description" content="{{ seo_description }}">
     
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    
     <!-- Comprehensive Schema.org structured data -->
     <script type="application/ld+json">
     {
