@@ -1,7 +1,8 @@
 ---
 layout: default
 title: About Us
-description: The team building Galoy modern core banking software.
+description: "Meet the Galoy team building the future of bitcoin banking. Led by founder Nicolas Burtey, our distributed team of engineers creates simple, secure, and scalable bitcoin bank software for financial institutions worldwide."
+keywords: "galoy team, bitcoin banking company, fintech founders, galoy bitcoin, banking software company, bitcoin infrastructure team, financial technology leadership, open source banking team, nicolas burtey, galoy founder, bitcoin banking leadership"
 ---
 
 # The Team Building the Future of Banking

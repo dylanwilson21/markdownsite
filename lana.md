@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Lana - Bitcoin-Backed Lending
+description: "Lana bitcoin-backed lending platform enables banks to offer secure bitcoin loans and digital asset lending. Launch innovative bitcoin loan products with automated collateral management, risk assessment, and compliance-ready lending solutions."
+keywords: "bitcoin-backed lending, bitcoin loan platform, digital asset lending, bitcoin loans, crypto backed loans, bitcoin loan site, collateralized digital asset lending, bitcoin lending sites, bitcoin based loans, blockchain loan platform, bitcoin infrastructure lending, btc borrowing, btc lend, crypto backed fiat loan, bitcoin backed lending, bitcoin backed loans, bitcoin-backed loans, bitcoin loan, lana lending platform"
 ---
 
 # Launch Innovative Lending Products with Lana

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Home
+description: "Galoy provides enterprise-grade bitcoin bank software, core banking systems, and bitcoin-backed lending platforms. Launch your fintech or modernize your bank with our open source banking infrastructure, bitcoin loan platform, and digital asset lending solutions."
+keywords: "bitcoin bank software, core banking system, bitcoin-backed lending, bitcoin loan platform, fintech software, digital asset lending, bitcoin infrastructure, banking as a service, open source banking, bitcoin loans, crypto lending platform, galoy bitcoin, blockchain banking software, btc borrowing, btc lend, collateralized digital asset lending, crypto backed fiat loan, bitcoin backed lending, galoy, bitcoin bank, galoy bitcoin, baas platform providers, banking as a service provider, banking open source software, bitcoin backed loans, bitcoin based loans, bitcoin infrastructure, bitcoin lending sites, bitcoin loan, bitcoin loan platform, bitcoin loan site, bitcoin loans, bitcoin-backed loans, blockchain loan platform"
 ---
 
 # The Future of Banking is Simple

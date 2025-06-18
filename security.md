@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Security & Compliance
+description: "Galoy maintains ISO27001 certification and enterprise-grade security for bitcoin banking infrastructure. Our open source banking software provides transparency, auditability, and industry-leading security for financial institutions."
+keywords: "banking security, ISO27001 certification, bitcoin bank security, financial software compliance, open source banking security, enterprise banking security, bitcoin infrastructure security, banking compliance, financial software security"
 ---
 
 # Security and Compliance You Can Trust

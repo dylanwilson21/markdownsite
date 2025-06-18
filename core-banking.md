@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Core Banking
+description: "Galoy Core Banking Suite: Complete bitcoin banking infrastructure with Bria payments hub, Cala accounting ledger, and Stablesats stability engine. Deploy enterprise-grade bitcoin bank software in weeks with our modular core banking system."
+keywords: "core banking system, bitcoin bank software, banking infrastructure, payments hub, accounting ledger, stability engine, enterprise banking software, modular banking platform, bitcoin core banking, financial institution software, bitcoin bank, banking as a service, open source banking, banking software, fintech infrastructure"
 ---
 
 # Your All-in-One Core Banking Solution

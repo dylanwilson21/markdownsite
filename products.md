@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Products
+description: "Galoy's comprehensive bitcoin banking products: Core Banking Suite, Lana lending platform, Bria payments, Cala ledger, and Stablesats. Modular bitcoin infrastructure solutions for banks and financial institutions."
+keywords: "bitcoin banking products, core banking suite, bitcoin loan platform, payments infrastructure, accounting ledger, stability engine, bitcoin infrastructure products, banking software solutions, bria payments, cala ledger, stablesats, lana lending"
 ---
 
 # Our Products

@@ -5,8 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} | Galoy{% else %}Galoy | Simple, Fast, and Secure Banking Software{% endif %}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+    {% assign seo_description = page.description %}
+    {% assign seo_keywords = page.keywords %}
+    
+    {% if page.title == "Home" or page.title == nil %}
+        {% assign seo_description = "Galoy provides enterprise-grade bitcoin bank software, core banking systems, and bitcoin-backed lending platforms. Launch your fintech or modernize your bank with our open source banking infrastructure, bitcoin loan platform, and digital asset lending solutions." %}
+        {% assign seo_keywords = "bitcoin bank software, core banking system, bitcoin-backed lending, bitcoin loan platform, fintech software, digital asset lending, bitcoin infrastructure, banking as a service, open source banking, bitcoin loans, crypto lending platform, galoy bitcoin, blockchain banking software" %}
+    {% elsif page.title == "Core Banking" %}
+        {% assign seo_description = "Galoy Core Banking Suite: Complete bitcoin banking infrastructure with Bria payments hub, Cala accounting ledger, and Stablesats stability engine. Deploy enterprise-grade bitcoin bank software in weeks with our modular core banking system." %}
+        {% assign seo_keywords = "core banking system, bitcoin bank software, banking infrastructure, payments hub, accounting ledger, stability engine, enterprise banking software, modular banking platform, bitcoin core banking, financial institution software" %}
+    {% elsif page.title == "Lana - Bitcoin-Backed Lending" %}
+        {% assign seo_description = "Lana bitcoin-backed lending platform enables banks to offer secure bitcoin loans and digital asset lending. Launch innovative bitcoin loan products with automated collateral management, risk assessment, and compliance-ready lending solutions." %}
+        {% assign seo_keywords = "bitcoin-backed lending, bitcoin loan platform, digital asset lending, bitcoin loans, crypto backed loans, bitcoin loan site, collateralized digital asset lending, bitcoin lending sites, bitcoin based loans, blockchain loan platform, bitcoin infrastructure lending" %}
+    {% elsif page.title == "About Us" %}
+        {% assign seo_description = "Meet the Galoy team building the future of bitcoin banking. Led by founder Nicolas Burtey, our distributed team of engineers creates simple, secure, and scalable bitcoin bank software for financial institutions worldwide." %}
+        {% assign seo_keywords = "galoy team, bitcoin banking company, fintech founders, galoy bitcoin, banking software company, bitcoin infrastructure team, financial technology leadership, open source banking team" %}
+    {% elsif page.title == "Security & Compliance" %}
+        {% assign seo_description = "Galoy maintains ISO27001 certification and enterprise-grade security for bitcoin banking infrastructure. Our open source banking software provides transparency, auditability, and industry-leading security for financial institutions." %}
+        {% assign seo_keywords = "banking security, ISO27001 certification, bitcoin bank security, financial software compliance, open source banking security, enterprise banking security, bitcoin infrastructure security" %}
+    {% elsif page.title == "FAQ" %}
+        {% assign seo_description = "Frequently asked questions about Galoy bitcoin banking software, core banking systems, and bitcoin-backed lending platforms. Learn about our products, security, compliance, and how to deploy bitcoin banking infrastructure." %}
+        {% assign seo_keywords = "galoy faq, bitcoin banking questions, core banking system faq, bitcoin loan platform questions, fintech software help, banking software support, bitcoin infrastructure faq" %}
+    {% elsif page.title == "Contact" %}
+        {% assign seo_description = "Contact Galoy for bitcoin banking software demos, core banking consultations, and bitcoin-backed lending platform integration. Get started with enterprise-grade bitcoin banking infrastructure today." %}
+        {% assign seo_keywords = "galoy contact, bitcoin banking demo, core banking consultation, bitcoin loan platform demo, fintech software contact, banking software sales, bitcoin infrastructure contact" %}
+    {% elsif page.title == "Products" %}
+        {% assign seo_description = "Galoy's comprehensive bitcoin banking products: Core Banking Suite, Lana lending platform, Bria payments, Cala ledger, and Stablesats. Modular bitcoin infrastructure solutions for banks and financial institutions." %}
+        {% assign seo_keywords = "bitcoin banking products, core banking suite, bitcoin loan platform, payments infrastructure, accounting ledger, stability engine, bitcoin infrastructure products, banking software solutions" %}
+    {% endif %}
+    
+    <meta name="description" content="{{ seo_description }}">
+    <meta name="keywords" content="{{ seo_keywords }}">
+    
+    <!-- Additional SEO and LLM discovery meta tags -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta name="slurp" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | Galoy{% else %}Galoy | Bitcoin Banking Software{% endif %}">
+    <meta property="og:description" content="{{ seo_description }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:site_name" content="Galoy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | Galoy{% else %}Galoy | Bitcoin Banking Software{% endif %}">
+    <meta name="twitter:description" content="{{ seo_description }}">
+    
+    <!-- Structured data for better AI/LLM understanding -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Galoy",
+      "description": "{{ seo_description }}",
+      "url": "{{ site.url }}{{ site.baseurl }}",
+      "applicationCategory": "FinancialApplication",
+      "operatingSystem": "Cross-platform",
+      "offers": {
+        "@type": "Offer",
+        "category": "Enterprise Software"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Galoy"
+      }
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">

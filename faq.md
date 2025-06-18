@@ -1,6 +1,8 @@
 ---
 layout: default
 title: FAQ
+description: "Frequently asked questions about Galoy bitcoin banking software, core banking systems, and bitcoin-backed lending platforms. Learn about our products, security, compliance, and how to deploy bitcoin banking infrastructure."
+keywords: "galoy faq, bitcoin banking questions, core banking system faq, bitcoin loan platform questions, fintech software help, banking software support, bitcoin infrastructure faq, galoy help, banking software questions"
 ---
 
 # Frequently Asked Questions

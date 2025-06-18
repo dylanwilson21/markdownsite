@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Contact
+description: "Contact Galoy for bitcoin banking software demos, core banking consultations, and bitcoin-backed lending platform integration. Get started with enterprise-grade bitcoin banking infrastructure today."
+keywords: "galoy contact, bitcoin banking demo, core banking consultation, bitcoin loan platform demo, fintech software contact, banking software sales, bitcoin infrastructure contact, galoy demo, banking software consultation"
 ---
 
 # Get in Touch
