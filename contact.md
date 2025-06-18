@@ -31,10 +31,6 @@ Need a custom solution or have specific requirements? Let's discuss how Galoy ca
       <input type="text" value="biz@galoy.io" readonly onclick="copyToClipboard(this)">
     </div>
     <div class="contact-item">
-      <strong>Dev Documentation</strong>
-      <input type="text" value="dev.galoy.io" readonly onclick="copyToClipboard(this)">
-    </div>
-    <div class="contact-item">
       <strong>Public Telegram</strong>
       <input type="text" value="https://t.me/galoyofficial" readonly onclick="copyToClipboard(this)">
     </div>
@@ -53,7 +49,7 @@ function toggleDropdown() {
 function copyToClipboard(element) {
   element.select();
   document.execCommand('copy');
-  
+
   // Show feedback
   const originalValue = element.value;
   element.value = "Copied!";
@@ -152,13 +148,8 @@ window.onclick = function(event) {
 
 ## Additional Resources
 
-### Documentation
-Comprehensive technical documentation, deployment guides, and API references.
-
-[View Documentation](https://dev.galoy.io/){: .btn .btn-secondary}
-
 ### GitHub
-Explore our open-source codebase, contribute to development, or report issues.
+Explore our open-source codebase, contribute to development, or report issues. Find comprehensive technical documentation, deployment guides, and API references in our repositories.
 
 [Galoy on GitHub](https://github.com/GaloyMoney){: .btn .btn-secondary}
 
