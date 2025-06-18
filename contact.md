@@ -155,7 +155,7 @@ window.onclick = function(event) {
 ### GitHub
 Explore our open-source codebase, contribute to development, or report issues. Find comprehensive technical documentation, deployment guides, and API references in our repositories.
 
-[Galoy on GitHub](https://github.com/GaloyMoney){: .btn .btn-secondary}
+[Galoy on GitHub](https://github.com/GaloyMoney){: .btn}
 
 ### Community
 Join our developer community for discussions, support, and collaboration.
@@ -190,7 +190,7 @@ When you contact us, here's what happens next:
 
 Before reaching out, you might find answers in our comprehensive FAQ section.
 
-[View FAQ](https://dylanwilson21.github.io/markdownsite/faq.html){: .btn .btn-secondary}
+[View FAQ](https://dylanwilson21.github.io/markdownsite/faq.html){: .btn}
 
 ---
 
