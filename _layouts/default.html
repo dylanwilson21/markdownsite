@@ -51,24 +51,234 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | Galoy{% else %}Galoy | Bitcoin Banking Software{% endif %}">
     <meta name="twitter:description" content="{{ seo_description }}">
     
-    <!-- Structured data for better AI/LLM understanding -->
+    <!-- Comprehensive Schema.org structured data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Galoy",
-      "description": "{{ seo_description }}",
-      "url": "{{ site.url }}{{ site.baseurl }}",
-      "applicationCategory": "FinancialApplication",
-      "operatingSystem": "Cross-platform",
-      "offers": {
-        "@type": "Offer",
-        "category": "Enterprise Software"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Galoy"
-      }
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "{{ site.url }}{{ site.baseurl }}/#organization",
+          "name": "Galoy",
+          "legalName": "Galoy Inc.",
+          "url": "{{ site.url }}{{ site.baseurl }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://cdn.prod.website-files.com/646f9b77a45b9e4c4377b0a2/656106c240ef09d6b11f4673_logo.svg"
+          },
+          "description": "Enterprise-grade bitcoin banking software and digital asset lending platforms for financial institutions",
+          "foundingDate": "2020",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Business",
+            "email": "biz@galoy.io",
+            "availableLanguage": "English"
+          },
+          "sameAs": [
+            "https://github.com/GaloyMoney",
+            "https://dev.galoy.io/"
+          ],
+          "areaServed": "Worldwide",
+          "knowsAbout": [
+            "Bitcoin Banking Software",
+            "Core Banking Systems",
+            "Digital Asset Lending",
+            "Financial Technology",
+            "Open Source Banking",
+            "Blockchain Infrastructure"
+          ]
+        },
+        {% if page.title == "Home" or page.title == nil %}
+        {
+          "@type": "WebSite",
+          "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+          "url": "{{ site.url }}{{ site.baseurl }}",
+          "name": "Galoy - Bitcoin Banking Software",
+          "publisher": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          },
+          "description": "{{ seo_description }}",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{{ site.url }}{{ site.baseurl }}/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Galoy Core Banking Suite",
+          "applicationCategory": "FinancialApplication",
+          "operatingSystem": "Linux, Cloud",
+          "description": "Complete bitcoin banking infrastructure with payments hub, accounting ledger, and stability engine",
+          "offers": {
+            "@type": "Offer",
+            "category": "Enterprise Software",
+            "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut"
+          },
+          "publisher": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          },
+          "featureList": [
+            "Multi-account wallet support",
+            "Real-time payment processing", 
+            "Double-entry accounting ledger",
+            "Bitcoin stability engine",
+            "ISO27001 certified security"
+          ]
+        },
+        {
+          "@type": "FinancialProduct",
+          "name": "Lana Bitcoin-Backed Lending Platform",
+          "description": "Digital asset lending platform for financial institutions",
+          "provider": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          },
+          "category": "Digital Asset Lending",
+          "featureList": [
+            "Automated loan origination",
+            "Real-time collateral monitoring",
+            "Risk management tools",
+            "Regulatory compliance reporting"
+          ]
+        }
+        {% elsif page.title == "Core Banking" %}
+        {
+          "@type": "SoftwareApplication",
+          "name": "Galoy Core Banking Suite",
+          "applicationCategory": "FinancialApplication",
+          "operatingSystem": "Linux, Cloud",
+          "description": "{{ seo_description }}",
+          "url": "{{ page.url | absolute_url }}",
+          "publisher": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          },
+          "offers": {
+            "@type": "Offer",
+            "category": "Enterprise Banking Software",
+            "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut"
+          },
+          "featureList": [
+            "Bria Payments Hub - Multi-account and multi-wallet support",
+            "Cala Core Accounting Ledger - SQL-compatible double-entry system",
+            "Stablesats Stability Engine - Bitcoin-native stable balances",
+            "Cloud-native architecture",
+            "ISO27001 certified security",
+            "API-first design"
+          ],
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Financial Institutions"
+          }
+        }
+        {% elsif page.title == "Lana - Bitcoin-Backed Lending" %}
+        {
+          "@type": "FinancialProduct",
+          "name": "Lana Bitcoin-Backed Lending Platform",
+          "description": "{{ seo_description }}",
+          "url": "{{ page.url | absolute_url }}",
+          "provider": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          },
+          "category": "Digital Asset Lending",
+          "featureList": [
+            "Automated loan origination workflows",
+            "Real-time collateral monitoring",
+            "Dynamic margin call management",
+            "Advanced risk assessment algorithms",
+            "Automated liquidation procedures",
+            "Regulatory compliance reporting"
+          ],
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Banks and Financial Institutions"
+          },
+          "benefits": [
+            "Low risk lending with Bitcoin collateral",
+            "High returns with secured assets",
+            "Competitive advantage in digital markets",
+            "Built-in compliance tools"
+          ]
+        }
+        {% elsif page.title == "About Us" %}
+        {
+          "@type": "AboutPage",
+          "name": "About Galoy",
+          "description": "{{ seo_description }}",
+          "url": "{{ page.url | absolute_url }}",
+          "mainEntity": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          }
+        }
+        {% elsif page.title == "Contact" %}
+        {
+          "@type": "ContactPage",
+          "name": "Contact Galoy",
+          "description": "{{ seo_description }}",
+          "url": "{{ page.url | absolute_url }}",
+          "mainEntity": {
+            "@type": "ContactPoint",
+            "contactType": "Business Development",
+            "email": "biz@galoy.io",
+            "availableLanguage": "English",
+            "areaServed": "Worldwide"
+          }
+        }
+        {% elsif page.title == "FAQ" %}
+        {
+          "@type": "FAQPage",
+          "name": "Galoy FAQ",
+          "description": "{{ seo_description }}",
+          "url": "{{ page.url | absolute_url }}",
+          "publisher": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          }
+        }
+        {% elsif page.title == "Security & Compliance" %}
+        {
+          "@type": "WebPage",
+          "name": "Galoy Security & Compliance",
+          "description": "{{ seo_description }}",
+          "url": "{{ page.url | absolute_url }}",
+          "about": {
+            "@type": "Thing",
+            "name": "Banking Security Standards",
+            "description": "ISO27001 certification and enterprise-grade security practices"
+          },
+          "publisher": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          }
+        }
+        {% else %}
+        {
+          "@type": "WebPage",
+          "name": "{{ page.title }} | Galoy",
+          "description": "{{ seo_description }}",
+          "url": "{{ page.url | absolute_url }}",
+          "publisher": {
+            "@id": "{{ site.url }}{{ site.baseurl }}/#organization"
+          }
+        }
+        {% endif %},
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "{{ site.url }}{{ site.baseurl }}"
+            }
+            {% if page.title and page.title != "Home" %},
+            {
+              "@type": "ListItem", 
+              "position": 2,
+              "name": "{{ page.title }}",
+              "item": "{{ page.url | absolute_url }}"
+            }
+            {% endif %}
+          ]
+        }
+      ]
     }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
