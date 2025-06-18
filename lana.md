@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Lana - Bitcoin-Backed Lending
