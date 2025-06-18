@@ -88,4 +88,4 @@ Comprehensive training programs and documentation to get your team up to speed q
 Ready to launch your Bitcoin-backed lending platform?
 
 [Learn More About Lana](mailto:biz@galoy.io?subject=Lana%20Lending%20Platform){: .btn}
-[Schedule a Demo](mailto:biz@galoy.io?subject=Lana%20Demo%20Request){: .btn .btn-secondary}
+[Schedule a Demo](https://calendly.com/andrew-galoy/){: .btn .btn-secondary}y}
