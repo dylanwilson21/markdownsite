@@ -46,6 +46,10 @@ function toggleDropdown() {
   document.getElementById("contactDropdown").classList.toggle("show");
 }
 
+function toggleCommunityDropdown() {
+  document.getElementById("communityDropdown").classList.toggle("show");
+}
+
 function copyToClipboard(element) {
   element.select();
   document.execCommand('copy');
@@ -156,7 +160,19 @@ Explore our open-source codebase, contribute to development, or report issues. F
 ### Community
 Join our developer community for discussions, support, and collaboration.
 
-[Join Community](https://github.com/GaloyMoney/galoy/discussions){: .btn .btn-secondary}
+<div class="contact-dropdown">
+  <button class="contact-dropdown-btn" onclick="toggleCommunityDropdown()">Join Community ▼</button>
+  <div class="contact-dropdown-content" id="communityDropdown">
+    <div class="contact-item">
+      <strong>Public Telegram</strong>
+      <input type="text" value="https://t.me/galoyofficial" readonly onclick="copyToClipboard(this)">
+    </div>
+    <div class="contact-item">
+      <strong>Public Discord</strong>
+      <input type="text" value="https://discord.gg/MzWus8Nvzw" readonly onclick="copyToClipboard(this)">
+    </div>
+  </div>
+</div>
 
 ## What to Expect
 
