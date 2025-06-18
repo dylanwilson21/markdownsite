@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Us
+description: The team building Galoy modern core banking software.
 ---
 
 # The Team Building the Future of Banking
