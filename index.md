@@ -52,5 +52,5 @@ Transparent, auditable code with the flexibility to customize and extend as need
 
 Ready to transform your banking infrastructure?
 
-[Request a Demo](https://calendly.com/andrew-galoy/){: .btn}
-[View Documentation](https://dev.galoy.io/){: .btn .btn-secondary}
+[Fork it to your computer](https://github.com/GaloyMoney){: .btn .btn-secondary}
+[Not a geek? Talk to a human on our team](https://calendly.com/andrew-galoy/){: .btn}
