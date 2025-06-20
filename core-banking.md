@@ -61,5 +61,5 @@ Modern, event-driven design that adapts to changing requirements.
 
 Ready to modernize your banking infrastructure?
 
-[Schedule a Consultation](https://calendly.com/andrew-galoy/){: .btn}
-[View Technical Documentation](https://dev.galoy.io/){: .btn .btn-secondary}
+[Fork it to your computer](https://github.com/GaloyMoney){: .btn}
+[Not a geek? Talk to a human on our team](https://calendly.com/andrew-galoy/){: .btn}
