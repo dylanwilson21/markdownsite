@@ -77,6 +77,22 @@ Yes. Being open source means you can review all the code and run your own securi
 ### Where can I get more information?
 - **GitHub and Documentation**: [github.com/GaloyMoney](https://github.com/GaloyMoney)
 - **Contact**: [biz@galoy.io](mailto:biz@galoy.io)
+  
+### Join our developer community for discussions, support, and collaboration.
+
+<div class="contact-dropdown">
+  <button class="contact-dropdown-btn" onclick="toggleCommunityDropdown()">Join Community ▼</button>
+  <div class="contact-dropdown-content" id="communityDropdown">
+    <div class="contact-item">
+      <strong>Public Telegram</strong>
+      <input type="text" value="https://t.me/galoyofficial" readonly onclick="copyToClipboard(this)">
+    </div>
+    <div class="contact-item">
+      <strong>Public Discord</strong>
+      <input type="text" value="https://discord.gg/MzWus8Nvzw" readonly onclick="copyToClipboard(this)">
+    </div>
+  </div>
+</div>
 
 ### How can I contribute to Galoy?
 We welcome contributions through code, documentation, testing, and community support.
