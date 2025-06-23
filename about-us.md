@@ -39,5 +39,5 @@ Our open-source licensing brings accessibility, auditability, and sustainability
 
 Interested in joining our mission or learning more about our approach?
 
-[Contact Our Team](mailto:biz@galoy.io){: .btn}
-[View Our GitHub](https://github.com/GaloyMoney){: .btn .btn-secondary}
+[Fork it to your computer](https://github.com/GaloyMoney){: .btn}
+[Not a geek? Talk to a human on our team](https://calendly.com/andrew-galoy/){: .btn}

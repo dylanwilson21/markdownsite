@@ -75,8 +75,7 @@ Yes. Being open source means you can review all the code and run your own securi
 ## Getting Help
 
 ### Where can I get more information?
-- **Documentation**: [dev.galoy.io](https://dev.galoy.io/)
-- **GitHub**: [github.com/GaloyMoney](https://github.com/GaloyMoney)
+- **GitHub and Documentation**: [github.com/GaloyMoney](https://github.com/GaloyMoney)
 - **Contact**: [biz@galoy.io](mailto:biz@galoy.io)
 
 ### How can I contribute to Galoy?
