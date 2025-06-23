@@ -94,6 +94,115 @@ Yes. Being open source means you can review all the code and run your own securi
   </div>
 </div>
 
+<script>
+function toggleCommunityDropdown() {
+  document.getElementById("communityDropdown").classList.toggle("show");
+}
+
+function copyToClipboard(element) {
+  element.select();
+  document.execCommand('copy');
+
+  // Show feedback
+  const originalValue = element.value;
+  element.value = "Copied!";
+  setTimeout(() => {
+    element.value = originalValue;
+  }, 1000);
+}
+
+// Close dropdown when clicking outside
+window.onclick = function(event) {
+  if (!event.target.matches('.contact-dropdown-btn')) {
+    var dropdowns = document.getElementsByClassName("contact-dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<style>
+.contact-dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.contact-dropdown-btn {
+  background-color: #f7931a;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 500;
+}
+
+.contact-dropdown-btn:hover {
+  background-color: #e6830f;
+}
+
+.contact-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #161b22;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 1rem;
+  top: 100%;
+  left: 0;
+}
+
+.contact-dropdown-content.show {
+  display: block;
+}
+
+.contact-item {
+  margin-bottom: 1rem;
+}
+
+.contact-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-item strong {
+  display: block;
+  color: #f0f6fc;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+.contact-item input {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+  color: #f0f6fc;
+  font-family: "Source Code Pro", monospace;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.contact-item input:focus {
+  outline: none;
+  border-color: #f7931a;
+}
+
+.contact-item input:hover {
+  border-color: #484f58;
+}
+</style>
+
 ### How can I contribute to Galoy?
 We welcome contributions through code, documentation, testing, and community support.
 
