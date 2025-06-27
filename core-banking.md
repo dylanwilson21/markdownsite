@@ -5,40 +5,29 @@ description: "Galoy Core Banking Suite: Complete bitcoin banking infrastructure 
 keywords: "core banking system, bitcoin bank software, banking infrastructure, payments hub, accounting ledger, stability engine, enterprise banking software, modular banking platform, bitcoin core banking, financial institution software, bitcoin bank, banking as a service, open source banking, banking software, fintech infrastructure"
 ---
 
-# Your All-in-One Core Banking Solution
+# Complete Core Banking Software
 
 Everything you need to launch and manage a modern financial institution, without the complexity.
 
-Our Core Banking Suite integrates three powerful components into a single solution that delivers seamless operations, robust accounting, and stable value management.
+Our Core Banking Software provides comprehensive banking infrastructure with integrated payments processing and accounting capabilities, designed specifically for bitcoin-native operations.
 
-## Integrated Components
+## Key Features
 
-### Bria - Payments Hub
-A powerful payments infrastructure for secure and scalable transactions.
+### Bitcoin-Native Infrastructure
+Built from the ground up for bitcoin and Lightning Network operations with enterprise-grade security and scalability.
 
-**Features:**
+### Integrated Payments & Accounting
 - Multi-account and multi-wallet support
-- Batched transaction processing
-- Cloud-ready architecture
 - Real-time payment processing
-
-### Cala - Core Accounting Ledger
-A robust, real-time, double-entry accounting ledger built for modern financial operations.
-
-**Features:**
+- Robust double-entry accounting ledger
 - SQL compatibility for easy integration
-- Multi-currency transaction support
-- Strong consistency guarantees
 - GraphQL API with built-in playground
 
-### Stablesats - Stability Engine
-A synthetic USD hedging engine that provides stable store of value.
-
-**Features:**
-- Bitcoin-native stable balances
-- Derivatives-based stability mechanism
-- Automated hedging and risk management
-- High-availability architecture
+### Enterprise Architecture
+- Cloud-ready infrastructure
+- Batched transaction processing
+- Strong consistency guarantees
+- High-availability design
 
 ## Benefits
 

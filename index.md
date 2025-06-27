@@ -7,9 +7,9 @@ keywords: "bitcoin bank software, core banking system, bitcoin-backed lending, b
 
 # The Future of Banking is Simple
 
-Launch your fintech or modernize your bank in weeks, not years, with our barebones and future-proof core banking software.
+Launch your fintech or modernize your bank in weeks, not years, with our comprehensive banking platform.
 
-Galoy is the solution for financial institutions that need to move fast and build on a solid, secure foundation. Our modular banking infrastructure eliminates complexity while delivering enterprise-grade security, speed, and scalability.
+Galoy provides two powerful solutions: Lana for bitcoin-backed lending and our Core Banking Software for complete banking infrastructure. Built for financial institutions that need to move fast while maintaining enterprise-grade security, speed, and scalability.
 
 
 

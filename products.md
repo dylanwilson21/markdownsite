@@ -7,35 +7,37 @@ keywords: "bitcoin banking products, core banking suite, bitcoin loan platform, 
 
 # Our Products
 
-Galoy provides banking software solutions designed to empower innovative organizations in leveraging the full potential of Bitcoin and other digital assets.
+Galoy provides two comprehensive banking solutions designed to empower financial institutions in leveraging the full potential of Bitcoin.
 
 ## Core Product Offerings
 
-### Bitcoin-Backed Lending Platform
+### Lana - Bitcoin-Backed Lending Platform
 
-A comprehensive solution for financial institutions to offer digital asset-backed loan products.
+A comprehensive solution for financial institutions to offer digital asset-backed loan products with integrated core banking capabilities.
 
 | Feature | Description |
 |---------|-------------|
 | Digital Asset Collateral | Secure Bitcoin-backed lending with automated collateral management |
 | Risk Management | Advanced risk assessment tools and real-time monitoring |
 | Automated Processing | Streamlined loan origination and servicing workflows |
+| Integrated Banking | Built-in payments processing and accounting infrastructure |
 
-### Full Core Banking Stack
+### Core Banking Software
 
-A complete Bitcoin-native banking infrastructure that combines payments, accounting, and stability features.
+A complete Bitcoin-native banking infrastructure for financial institutions ready to embrace digital assets.
 
-| Component | Purpose |
-|-----------|---------|
-| **Bria Payment Hub** | Secure Bitcoin and Lightning Network transaction processing |
-| **Cala Core Ledger** | Double-entry accounting system for enterprise financial applications |
-| **Stablesats Engine** | Bitcoin-native stable balances using derivatives contracts |
+| Capability | Description |
+|-----------|-------------|
+| **Payment Processing** | Secure Bitcoin and Lightning Network transaction processing |
+| **Enterprise Accounting** | Modern double-entry ledger supporting multi-currency operations |
+| **Multi-Account Support** | Comprehensive wallet and account management |
+| **API-First Design** | GraphQL API with built-in playground for easy integration |
 
-#### Key Capabilities
+#### Key Benefits
 
-• **Payment Processing**: On-chain Bitcoin and Lightning Network transactions  
-• **Enterprise Accounting**: Modern double-entry ledger supporting multi-currency operations  
-• **Stability Solutions**: Synthetic USD creation through perpetual inverse swap contracts  
+• **Bitcoin-Native**: Built specifically for bitcoin operations from the ground up  
+• **Enterprise-Grade**: Scalable, secure, and reliable infrastructure  
+• **Modern Architecture**: Cloud-ready with real-time processing capabilities  
 
 ## Wallets & Web Applications
 
