@@ -1,76 +1,85 @@
+
 ---
 layout: default
-title: Lana - Bitcoin-Backed Lending
-description: "Lana bitcoin-backed lending platform enables banks to offer secure bitcoin loans and digital asset lending. Launch innovative bitcoin loan products with automated collateral management, risk assessment, and compliance-ready lending solutions."
-keywords: "bitcoin-backed lending, bitcoin loan platform, digital asset lending, bitcoin loans, crypto backed loans, bitcoin loan site, collateralized digital asset lending, bitcoin lending sites, bitcoin based loans, blockchain loan platform, bitcoin infrastructure lending, btc borrowing, btc lend, crypto backed fiat loan, bitcoin backed lending, bitcoin backed loans, bitcoin-backed loans, bitcoin loan, lana lending platform"
+title: Lana - Modern Banking Platform
+description: "Lana is Galoy's comprehensive banking platform offering both complete core banking infrastructure and bitcoin-backed lending capabilities. Deploy as primary core for de novo banks or sidecar for incumbent institutions."
+keywords: "lana banking platform, core banking system, bitcoin-backed lending, bitcoin loan platform, digital asset lending, bitcoin loans, crypto backed loans, banking infrastructure, modern banking software, de novo banking, sidecar banking model"
 ---
 
-# Launch Innovative Lending Products with Lana
+# Lana: One Platform, Two Strategic Paths
 
-Tap into the growing demand for Bitcoin-backed lending with our secure platform designed specifically for banks and financial institutions.
+Lana is Galoy's comprehensive banking platform that serves both as complete core banking infrastructure and specialized bitcoin-backed lending solution. Choose your path based on your institution's needs.
 
-Lana enables financial institutions to offer Bitcoin-backed loans—meeting customer demand while providing banks with low-risk, high-return lending opportunities.
+## Two Strategic Approaches
 
-## Key Benefits
+### The Sidecar Model
+**Perfect for incumbent banks** - Enable bitcoin-backed lending alongside your existing core & ERP systems.
 
-### Rapid Deployment
-Go from concept to market in weeks. Lana's modular architecture reduces time-to-market dramatically.
+- **Low-friction modernization** - No core migration required
+- **Immediate innovation** - Launch bitcoin lending products quickly 
+- **Minimal risk** - Lana runs alongside existing infrastructure
+- **Customer channel integration** - Works with your current customer interfaces
 
-### Automated Management
-Streamline operations with automated loan origination, fee collection, and margin call management.
+### The Primary Core Model  
+**Ideal for de novo banks** - Launch with Lana as your complete modern, scalable, and compliant core banking system from day one.
 
-### Seamless Integration
-Works with your existing core banking systems and regulatory frameworks.
+- **Modern architecture** - Cloud-native, API-first design
+- **Complete infrastructure** - Full banking operations capability
+- **Future-ready** - Built for digital asset banking
+- **Rapid deployment** - Get to market in weeks, not years
 
-## Value Proposition
+## Core Platform Capabilities
 
-### For Banks
-- **Low Risk**: Bitcoin's high liquidity provides excellent collateral
-- **High Returns**: Premium lending rates with secured collateral
-- **Competitive Advantage**: Offer innovative products
+### Complete Banking Infrastructure
+- **Multi-account and multi-wallet support**
+- **Real-time payment processing** 
+- **Robust double-entry accounting ledger**
+- **SQL compatibility** for easy integration
+- **GraphQL API** with built-in playground
 
-### For Customers
-- **Access Liquidity**: Borrow against Bitcoin without selling assets
-- **Preserve Holdings**: Maintain Bitcoin exposure while accessing funds
-- **Fast Processing**: Quick loan approval and funding
+### Bitcoin-Backed Lending
+- **Automated loan origination** workflows
+- **Real-time collateral monitoring**
+- **Dynamic margin call management** 
+- **Advanced risk assessment** algorithms
+- **Automated liquidation** procedures
 
-## Technical Features
+### Enterprise Features
+- **Bitcoin-native operations** with Lightning Network support
+- **Cloud-ready infrastructure** with high availability
+- **Batched transaction processing** for efficiency
+- **Strong consistency guarantees**
+- **ISO27001 certified security**
 
-### Loan Management
-- Automated loan origination workflows
-- Real-time collateral monitoring
-- Dynamic margin call management
+## Benefits by Model
 
-### Risk Management
-- Advanced risk assessment algorithms
-- Real-time collateral valuation
-- Automated liquidation procedures
+### Sidecar Benefits
+- **Immediate value** - Start offering bitcoin lending without system replacement
+- **Risk mitigation** - Test new products alongside proven systems
+- **Customer retention** - Meet demand for innovative financial products
+- **Revenue diversification** - Add high-margin lending products
 
-### Integration Capabilities
-- Multiple custody options support
-- Existing banking system integration
-- Third-party custodian compatibility
+### Primary Core Benefits  
+- **Modern foundation** - Start with future-ready infrastructure
+- **Operational efficiency** - Single platform for all banking needs
+- **Competitive advantage** - Launch innovative products from day one
+- **Scalable growth** - Platform grows with your institution
 
 ## Perfect For
 
-- **Community Banks**: Offer innovative products to attract new customers
-- **Credit Unions**: Provide members with unique lending options
-- **Online Banks**: Add digital asset services to your platform
+### Sidecar Model
+- **Community Banks** seeking to offer innovative lending products
+- **Credit Unions** wanting to serve member demand for bitcoin services
+- **Regional Banks** looking to differentiate with digital asset offerings
 
-## Implementation Support
-
-### Professional Services
-Our team provides expert implementation support, ensuring smooth deployment and optimal configuration for your specific needs.
-
-### Ongoing Support
-Dedicated technical support and maintenance services to keep your lending platform running smoothly.
-
-### Training & Documentation
-Comprehensive training programs and documentation to get your team up to speed quickly.
+### Primary Core Model
+- **New Fintechs** building bitcoin-native banking services
+- **De Novo Banks** starting with modern infrastructure
+- **Digital-First Institutions** requiring complete flexibility
 
 ---
 
-Ready to launch your Bitcoin-backed lending platform?
+Ready to choose your path with Lana?
 
 [Fork it to your computer](https://github.com/GaloyMoney){: .btn}
 [Not a geek? Talk to a human on our team](https://calendly.com/andrew-galoy/){: .btn}

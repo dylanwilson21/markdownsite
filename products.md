@@ -7,34 +7,31 @@ keywords: "bitcoin banking products, core banking suite, bitcoin loan platform, 
 
 # Our Products
 
-Galoy provides two comprehensive banking solutions designed to empower financial institutions in leveraging the full potential of Bitcoin.
+Galoy provides comprehensive banking infrastructure through Lana - our modern banking platform that serves financial institutions through two strategic deployment models.
 
-## Core Product Offerings
+## Core Product
 
-### Lana - Bitcoin-Backed Lending Platform
+### Lana - Modern Banking Platform
 
-A comprehensive solution for financial institutions to offer digital asset-backed loan products with integrated core banking capabilities.
+A comprehensive banking solution offering both complete core banking infrastructure and bitcoin-backed lending capabilities.
+
+| Model | Description |
+|-------|-------------|
+| **Sidecar Model** | Enable bitcoin-backed lending alongside existing core & ERP systems for incumbent banks |
+| **Primary Core Model** | Complete modern banking infrastructure for de novo institutions |
+
+### Platform Capabilities
 
 | Feature | Description |
 |---------|-------------|
-| Digital Asset Collateral | Secure Bitcoin-backed lending with automated collateral management |
-| Risk Management | Advanced risk assessment tools and real-time monitoring |
-| Automated Processing | Streamlined loan origination and servicing workflows |
-| Integrated Banking | Built-in payments processing and accounting infrastructure |
-
-### Core Banking Software
-
-A complete Bitcoin-native banking infrastructure for financial institutions ready to embrace digital assets.
-
-| Capability | Description |
-|-----------|-------------|
-| **Payment Processing** | Secure Bitcoin and Lightning Network transaction processing |
-| **Enterprise Accounting** | Modern double-entry ledger supporting multi-currency operations |
-| **Multi-Account Support** | Comprehensive wallet and account management |
-| **API-First Design** | GraphQL API with built-in playground for easy integration |
+| **Core Banking Infrastructure** | Complete payment processing, accounting ledger, and account management |
+| **Bitcoin-Backed Lending** | Automated loan origination, collateral monitoring, and risk management |
+| **API-First Design** | GraphQL API with built-in playground for seamless integration |
+| **Enterprise Security** | ISO27001 certified with industry-leading security standards |
 
 #### Key Benefits
 
+• **Flexible Deployment**: Choose sidecar or primary core based on your institution's needs  
 • **Bitcoin-Native**: Built specifically for bitcoin operations from the ground up  
 • **Enterprise-Grade**: Scalable, secure, and reliable infrastructure  
 • **Modern Architecture**: Cloud-ready with real-time processing capabilities  

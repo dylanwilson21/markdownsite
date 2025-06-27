@@ -9,7 +9,11 @@ keywords: "bitcoin bank software, core banking system, bitcoin-backed lending, b
 
 Launch your fintech or modernize your bank in weeks, not years, with our comprehensive banking platform.
 
-Galoy provides two powerful solutions: Lana for bitcoin-backed lending and our Core Banking Software for complete banking infrastructure. Built for financial institutions that need to move fast while maintaining enterprise-grade security, speed, and scalability.
+Galoy provides comprehensive banking infrastructure through Lana - our modern banking platform that serves as both complete core banking software and bitcoin-backed lending solution. Built for financial institutions that need to move fast while maintaining enterprise-grade security, speed, and scalability.
+
+**Two Strategic Paths:**
+- **Sidecar Model**: Enable bitcoin-backed lending alongside your existing core & ERP systems
+- **Primary Core Model**: Launch de novo with Lana as your complete modern, scalable, and compliant core banking system
 
 
 

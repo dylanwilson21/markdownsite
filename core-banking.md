@@ -5,11 +5,11 @@ description: "Galoy Core Banking Suite: Complete bitcoin banking infrastructure 
 keywords: "core banking system, bitcoin bank software, banking infrastructure, payments hub, accounting ledger, stability engine, enterprise banking software, modular banking platform, bitcoin core banking, financial institution software, bitcoin bank, banking as a service, open source banking, banking software, fintech infrastructure"
 ---
 
-# Complete Core Banking Software
+# Lana: Complete Banking Platform
 
 Everything you need to launch and manage a modern financial institution, without the complexity.
 
-Our Core Banking Software provides comprehensive banking infrastructure with integrated payments processing and accounting capabilities, designed specifically for bitcoin-native operations.
+Lana provides comprehensive banking infrastructure with integrated payments processing, accounting capabilities, and bitcoin-backed lending - all designed specifically for bitcoin-native operations.
 
 ## Key Features
 
@@ -42,13 +42,13 @@ Modern, event-driven design that adapts to changing requirements.
 
 ## Perfect For
 
-- **New Fintechs**: Get to market quickly with complete banking infrastructure
-- **Existing Banks**: Modernize legacy systems with future-ready technology
-- **Financial Institutions**: Add innovative products without rebuilding from scratch
+- **New Fintechs**: Get to market quickly with Lana's complete banking infrastructure (Primary Core Model)
+- **Existing Banks**: Modernize with Lana's sidecar approach alongside your current systems (Sidecar Model)
+- **Financial Institutions**: Add innovative bitcoin lending products without rebuilding from scratch
 
 ---
 
-Ready to modernize your banking infrastructure?
+Ready to modernize your banking infrastructure with Lana?
 
 [Fork it to your computer](https://github.com/GaloyMoney){: .btn}
 [Not a geek? Talk to a human on our team](https://calendly.com/andrew-galoy/){: .btn}
