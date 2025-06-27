@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Lana - Modern Banking Platform
