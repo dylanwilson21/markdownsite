@@ -21,13 +21,6 @@ Galoy is designed for:
 
 ## Technical Questions
 
-### What products does Galoy offer?
-- **Lana**: Bitcoin loans platform for digital asset-backed lending
-- **Bria**: Bitcoin payments hub with Lightning Network integration
-- **Cala**: Bitcoin-native double-entry accounting ledger
-- **Stablesats**: Hedging engine for Bitcoin-native stable balances
-- **Blink Wallet**: Popular Lightning-native mobile Bitcoin wallet
-
 ### Do I need to be a Bitcoin expert to use Galoy?
 No. Galoy is designed to handle the technical complexity of Bitcoin operations while providing simple interfaces for end users.
 
@@ -43,16 +36,10 @@ Galoy provides multiple deployment options:
 - **Cloud providers** - Pre-configured for AWS, GCP, and others
 - **Managed hosting** - We can host and manage it for you
 
-### What are the system requirements?
-Minimum requirements vary by deployment size:
-- **Small deployment**: 4 CPU cores, 8GB RAM, 100GB storage
-- **Medium deployment**: 8 CPU cores, 16GB RAM, 500GB storage
-- **Large deployment**: 16+ CPU cores, 32GB+ RAM, 1TB+ storage
-
 ## Business Questions
 
 ### How much does Galoy cost?
-Galoy Core is completely free and open source. Costs may include infrastructure hosting, professional services, and managed hosting.
+Pricing is flexible according to your banks needs. Costs may include infrastructure hosting, professional services, and managed hosting.
 
 ### What kind of support is available?
 We offer:
